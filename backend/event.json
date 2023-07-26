@@ -1,0 +1,15 @@
+{
+  "summary": "❤️Testing google api aaa",
+  "location": "800 Howard St., San Francisco, CA 94103",
+  "description": "A chance to hear more about Google's developer products.",
+  "eventType": "outOfOffice",
+  "start": {
+    "dateTime": "2023-07-26T09:00:00-07:00",
+    "timeZone": "Asia/Colombo"
+  },
+  "end": {
+    "dateTime": "2023-07-26T17:00:00-07:00",
+    "timeZone": "Asia/Colombo"
+  },
+  "attendeesOmitted": false
+}
