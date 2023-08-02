@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function handleGoogle() {
-  var SCOPES = "https://www.googleapis.com/auth/calendar.events";
+  var SCOPES = "https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar";
   const client = window.google.accounts.oauth2.initCodeClient({
     client_id: "491217887110-89vldr8je8sdcq2qarc0jheqtmk5u7b6.apps.googleusercontent.com",
     scope: SCOPES,

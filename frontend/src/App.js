@@ -10,11 +10,14 @@ function App() {
     await axios.post("http://localhost:3001/updateanevent");
   };
 
+  const deleteEvent = async () => {
+    await axios.delete("http://localhost:3001/deleteEvent");
+  };
   const handleAddEvent = () => {
     const eventDetails = {
       subject: "On leave",
-      startDate: "2023-07-27T10:00:00Z", // Replace with the desired start date and time in ISO format
-      endDate: "2023-07-27T11:00:00Z", // Replace with the desired end date and time in ISO format
+      startDate: "2023-07-28T10:00:00Z", // Replace with the desired start date and time in ISO format
+      endDate: "2023-07-28T11:00:00Z", // Replace with the desired end date and time in ISO format
     };
 
     postEvent(eventDetails);
@@ -31,6 +34,10 @@ function App() {
 
       <button type="button" onClick={handleAddEvent}>
         Create event to outlook
+      </button>
+
+      <button type="button" onClick={deleteEvent}>
+        Delete
       </button>
     </div>
   );
