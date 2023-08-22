@@ -4,13 +4,14 @@
   "description": "A chance to hear more about Google's developer products.",
   "eventType": "outOfOffice",
   "start": {
-    "dateTime": "2023-07-30T09:00:00-00:00",
+    "dateTime": "2023-08-08T09:01:00-00:00",
     "timeZone": "Asia/Colombo"
   },
   "end": {
-    "dateTime": "2023-07-30T17:00:00-00:00",
+    "dateTime": "2023-08-08T17:23:00-00:00",
     "timeZone": "Asia/Colombo"
   },
   "attendeesOmitted": true,
-  "anyoneCanAddSelf": true
+  "anyoneCanAddSelf": true,
+  "visibility": "public"
 }

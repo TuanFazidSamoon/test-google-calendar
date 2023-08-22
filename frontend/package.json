@@ -2,10 +2,11 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
+  "proxy": "https://0347-123-231-108-44.ngrok-free.app",
   "dependencies": {
     "@azure/msal-react": "^1.5.9",
     "@microsoft/microsoft-graph-client": "^3.0.5",
+    "@react-oauth/google": "^0.11.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
